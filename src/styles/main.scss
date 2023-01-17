@@ -99,6 +99,10 @@
     }
 }
 
+// .wrapper_about {
+//   height: 70rem;
+// }
+
 .about {
   background-color: var(--green);
   padding: 8rem 25vw 10rem;
@@ -110,6 +114,7 @@
 
   @media screen and (max-width: 768px) {
     padding: 6rem 5vw 20rem;
+    margin-bottom: 37rem;
   }
 
   .text {
@@ -132,10 +137,11 @@
     }
   }
 
-  .wrapper {
+  .wrapper_cards {
     display: flex;
     justify-content: center;
     width: 50vw;
+    max-height: 60rem;
     border: 1px solid lightgray;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 15px;
@@ -149,7 +155,9 @@
       display: flex;
       flex-direction: column;
       width: 85vw;
+      
       margin-left: 1vw;
+      
     }
     div {
       
@@ -208,6 +216,7 @@
       @media screen and (max-width: 768px) {
         width: 85vw;
         border-right: none;
+        
       }
 
       div:nth-of-type(1) {
@@ -224,84 +233,236 @@
             
           }
 
-          margin-bottom: 3.6rem;
+          margin-bottom: 4rem;
         }
     }
   }
 }
 
 .examples {
-
+  display: flex;
+  flex-direction: column;
   padding: 0 10vw;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 18rem;
 
-  div:nth-of-type(1) {
+  @media screen and (max-width: 768px) {
+    margin-bottom: 5rem;
+  }
+
+  // border: 1px solid black;
+
+  .examples_intro {
+    
     text-align: center;
     margin-bottom: 4rem;
   }
 
   .project_wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
 
-    div:nth-of-type(1) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      border: 1px solid black;
-      height: 15rem;
-      width: 30%;
-
+    .container_one {
+      
       background: url(../images/website_logo.png) center no-repeat;
       background-size: 80%;
       background-color: var(--blue);
+      
+      width: 25rem;
+      aspect-ratio: 16 / 9;
 
-      h4, a {
+      border-radius: 15px;
+      overflow: hidden;
+
+      .overlay_one {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color:#8eaf9def;
+        color: white;
+
         opacity: 0;
+        transition: .5s ease;
+
+
+        
+          a {
+            letter-spacing: 1.8px;
+            color: white;
+            text-decoration: none;
+            border: 2px solid var(--blue);
+            border-radius: 20px;
+            padding: 5px 20px;
+            background: none;
+            font-weight: 600;
+            transition: 0.2s ease-in-out;
+          }
+      
+          a:hover {
+            background-color: var(--blue);
+            color: black;
+            transition: 0.2s ease-in-out;
+          }       
       }
 
     }
 
-    div:nth-of-type(2) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      border: 1px solid black;
-      height: 15rem;
-      width: 30%;
+    .container_two {
 
       background: url(../images/bootstrap.png) center no-repeat;
       background-size: 100%;
 
-      h4, a {
+      width: 25rem;
+      aspect-ratio: 16 / 9;
+
+      border-radius: 15px;
+      overflow: hidden;
+
+      color: white;
+
+      .overlay_two {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color:#8eaf9def;
         opacity: 0;
+        transition: .5s ease;
+
+        
+        a {
+          letter-spacing: 1.8px;
+          color: white;
+          text-decoration: none;
+          border: 2px solid var(--blue);
+          border-radius: 20px;
+          padding: 5px 20px;
+          background: none;
+          font-weight: 600;
+          transition: 0.2s ease-in-out;
+        }
+      
+          a:hover {
+            background-color: var(--blue);
+            color: black;
+            transition: 0.2s ease-in-out;
+          }       
       }
     }
 
-    div:nth-of-type(3) {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      border: 1px solid black;
-      height: 15rem;
-      width: 30%;
+    .container_three {
 
       background: url(../images/grid.jpg) center no-repeat;
       background-size: 100%;
 
-      h4, a {
+      width: 25rem;
+      aspect-ratio: 16 / 9;
+
+      border-radius: 15px;
+      overflow: hidden;
+
+      color: white;
+
+      .overlay_three {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+        background-color:#8eaf9def;
         opacity: 0;
+        transition: .5s ease;
+
+        
+        a {
+          letter-spacing: 1.8px;
+          color: white;
+          text-decoration: none;
+          border: 2px solid var(--blue);
+          border-radius: 20px;
+          padding: 5px 20px;
+          background: none;
+          font-weight: 600;
+          transition: 0.2s ease-in-out;
+        }
+      
+          a:hover {
+            background-color: var(--blue);
+            color: black;
+            transition: 0.2s ease-in-out;
+          }       
       }
     
+    }
+
+    .container_one:hover .overlay_one, .container_two:hover .overlay_two, .container_three:hover .overlay_three {
+      opacity: 1;
     }
   }
 }
 
 footer {
-  grid-area: footer;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+  height: 25rem;
+  background-color: var(--green);
+
+  @media screen and (max-width: 768px) {
+    height: auto;
+    gap: 0.5rem;
+    padding: 0;
+    
+  }
+
+  div > img {
+      width: 100px;
+      
+  }
+
+  div:nth-child(2) {
+    color: white;
+  }
+
+  div:nth-child(3) {
+
+  }
+
+  div:nth-child(3) > a {
+    color: var(--green);
+    padding: 1rem;
+  }
+
+  div:nth-child(3) > a > i {
+      background-color: white;
+      font-size: 1.8rem;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 60px;
+      vertical-align: middle;
+      margin-bottom: 2rem;
+
+  }
+
+  div:nth-child(3) > a > i:hover {
+    background-color: var(--blue);
+  }
+
 }
