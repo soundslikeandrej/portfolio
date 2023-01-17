@@ -279,6 +279,10 @@
       border-radius: 15px;
       overflow: hidden;
 
+      @media screen and (max-width: 768px) {
+        width: 85vw;
+      }
+
       .overlay_one {
         display: flex;
         flex-direction: column;
@@ -328,6 +332,10 @@
 
       color: white;
 
+      @media screen and (max-width: 768px) {
+        width: 85vw;
+      }
+
       .overlay_two {
         display: flex;
         flex-direction: column;
@@ -372,6 +380,10 @@
       overflow: hidden;
 
       color: white;
+
+      @media screen and (max-width: 768px) {
+        width: 85vw;
+      }
 
       .overlay_three {
         display: flex;

@@ -10986,6 +10986,11 @@ textarea.form-control-lg {
   border-radius: 15px;
   overflow: hidden;
 }
+@media screen and (max-width: 768px) {
+  .examples .project_wrapper .container_one {
+    width: 85vw;
+  }
+}
 .examples .project_wrapper .container_one .overlay_one {
   display: flex;
   flex-direction: column;
@@ -11023,6 +11028,11 @@ textarea.form-control-lg {
   overflow: hidden;
   color: white;
 }
+@media screen and (max-width: 768px) {
+  .examples .project_wrapper .container_two {
+    width: 85vw;
+  }
+}
 .examples .project_wrapper .container_two .overlay_two {
   display: flex;
   flex-direction: column;
@@ -11058,6 +11068,11 @@ textarea.form-control-lg {
   border-radius: 15px;
   overflow: hidden;
   color: white;
+}
+@media screen and (max-width: 768px) {
+  .examples .project_wrapper .container_three {
+    width: 85vw;
+  }
 }
 .examples .project_wrapper .container_three .overlay_three {
   display: flex;
