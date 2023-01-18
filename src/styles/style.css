@@ -10985,6 +10985,11 @@ textarea.form-control-lg {
   aspect-ratio: 16/9;
   border-radius: 15px;
   overflow: hidden;
+  transition: 0.2s ease-in-out;
+}
+.examples .project_wrapper .container_one:hover {
+  background-size: 110%;
+  transition: 0.2s ease-in-out;
 }
 @media screen and (max-width: 768px) {
   .examples .project_wrapper .container_one {
@@ -11027,6 +11032,11 @@ textarea.form-control-lg {
   border-radius: 15px;
   overflow: hidden;
   color: white;
+  transition: 0.2s ease-in-out;
+}
+.examples .project_wrapper .container_two:hover {
+  background-size: 135%;
+  transition: 0.2s ease-in-out;
 }
 @media screen and (max-width: 768px) {
   .examples .project_wrapper .container_two {
@@ -11068,6 +11078,11 @@ textarea.form-control-lg {
   border-radius: 15px;
   overflow: hidden;
   color: white;
+  transition: 0.2s ease-in-out;
+}
+.examples .project_wrapper .container_three:hover {
+  background-size: 120%;
+  transition: 0.2s ease-in-out;
 }
 @media screen and (max-width: 768px) {
   .examples .project_wrapper .container_three {
@@ -11143,9 +11158,11 @@ footer div:nth-child(3) > a > i {
   line-height: 60px;
   vertical-align: middle;
   margin-bottom: 2rem;
+  transition: 0.2s ease-in-out;
 }
 footer div:nth-child(3) > a > i:hover {
   background-color: var(--blue);
+  transition: 0.2s ease-in-out;
 }
 
 /*# sourceMappingURL=style.css.map */

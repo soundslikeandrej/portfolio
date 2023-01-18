@@ -279,6 +279,13 @@
       border-radius: 15px;
       overflow: hidden;
 
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        background-size: 110%;
+        transition: 0.2s ease-in-out;
+      }
+
       @media screen and (max-width: 768px) {
         width: 85vw;
       }
@@ -332,6 +339,13 @@
 
       color: white;
 
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        background-size: 135%;
+        transition: 0.2s ease-in-out;
+      }
+
       @media screen and (max-width: 768px) {
         width: 85vw;
       }
@@ -346,6 +360,8 @@
         background-color:#8eaf9def;
         opacity: 0;
         transition: .5s ease;
+
+        
 
         
         a {
@@ -380,6 +396,13 @@
       overflow: hidden;
 
       color: white;
+      
+      transition: 0.2s ease-in-out;
+
+      &:hover {
+        background-size: 120%;
+        transition: 0.2s ease-in-out;
+      }
 
       @media screen and (max-width: 768px) {
         width: 85vw;
@@ -420,6 +443,7 @@
 
     .container_one:hover .overlay_one, .container_two:hover .overlay_two, .container_three:hover .overlay_three {
       opacity: 1;
+      
     }
   }
 }
@@ -470,11 +494,12 @@ footer {
       line-height: 60px;
       vertical-align: middle;
       margin-bottom: 2rem;
-
+      transition: 0.2s ease-in-out;
   }
 
   div:nth-child(3) > a > i:hover {
     background-color: var(--blue);
+    transition: 0.2s ease-in-out;
   }
 
 }
