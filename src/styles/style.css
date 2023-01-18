@@ -11001,6 +11001,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   height: 100%;
   width: 100%;
   background-color: rgba(142, 175, 157, 0.937254902);
@@ -11048,6 +11049,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   height: 100%;
   width: 100%;
   background-color: rgba(142, 175, 157, 0.937254902);
@@ -11094,6 +11096,7 @@ textarea.form-control-lg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1rem;
   height: 100%;
   width: 100%;
   background-color: rgba(142, 175, 157, 0.937254902);
